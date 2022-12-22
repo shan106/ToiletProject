@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="toilet_adres">adres</string>
+    <string name="geslacht">geslacht</string>
+    <string name="title_activity_map">Map</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="app_count">APP_COUNT</string>
+    <string name="my_pref">MY_PREF</string>
+    <string name="tap_to_search_file">"Tap to search "</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

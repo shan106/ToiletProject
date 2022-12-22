@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp">
+        <TextView
+            android:id="@+id/tvadres"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:hint="@string/toilet_adres"
+            android:padding="8dp"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tvgeslacht"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:layout_marginStart="10dp"
+            android:hint="@string/geslacht"
+            android:padding="8dp"
+
+            android:textColorHint="#757575"
+            android:textSize="16sp"
+
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="76dp" />
+
+
+    </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/rolstoel_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="rolstoel"/>
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/luiertafel_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="luiertafel"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/cardview_shadow_end_color">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            android:textSize="16sp"
+            android:text="SAVE"
+            android:gravity="center"
+            />
+    </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>
